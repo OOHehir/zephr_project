@@ -6,9 +6,7 @@ Hello World
 Overview
 ********
 
-Out of tree build example for a Zephyr project
-
-A simple project that can be used with any :ref:`supported board <boards>` and
+A simple 'out of tree' build example for a Zephyr project. It can be used with any :ref:`supported board <boards>` and
 prints "Hello World" to the console.
 
 Building and Running
@@ -17,8 +15,8 @@ Building and Running
 This application can be built and executed on QEMU as follows:
 
 Init:
-source ../zephyrproject/.venv/bin/activate
-source ../zephyrproject/zephyr/zephyr-env.sh
+.. source ../zephyrproject/.venv/bin/activate
+    :source ../zephyrproject/zephyr/zephyr-env.sh:
 
 west build -p always -b qemu_x86
 
