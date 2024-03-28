@@ -6,9 +6,9 @@ Hello World
 Overview
 ********
 
-Out of tree build example
+Out of tree build example for a Zephyr project
 
-A simple sample that can be used with any :ref:`supported board <boards>` and
+A simple project that can be used with any :ref:`supported board <boards>` and
 prints "Hello World" to the console.
 
 Building and Running
